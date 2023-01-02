@@ -27,10 +27,16 @@ function guessMatch(){
             document.querySelector('.number').innerHTML=inputPoint;
             initialPoint--;
             document.querySelector('.score').innerText=initialPoint;
+            document.querySelector('.highscore').innerText=initialPoint
         }
     }
 }
 
 function reloadgame(){
-    window.location.reload();
+    // document.getElementById('guessId').value=''
+    // document.querySelector('.message').innerText='Start guessing...'
+    // document.querySelector('.score').innerText=20
+    // document.querySelector('body').style.backgroundColor='#222'
+    // document.querySelector('.number').innerHTML='?'
+    window.location.reload()
 }
